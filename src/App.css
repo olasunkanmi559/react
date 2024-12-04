@@ -1,0 +1,27 @@
+.ola{
+  background-color: greenyellow;
+}
+.p{
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+button{
+  background-color: orange;
+  border: none;
+  color: black;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+.forbut{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h2{
+  text-align: center;
+}
+.first{
+  text-align: center;
+}

@@ -3,6 +3,7 @@ import './App.css'
 import Nav from './nav'
 import Button from './Button'
 import Body from './body'
+import Input from './Input'
 
 
 function App() {
@@ -10,40 +11,10 @@ function App() {
 
   return (
     <div className='ola'>
-
       <Body />
-
-
-
-      <h1 className='p'>
-      Wy choose smile
-      </h1>
-      <div className='forbut'>
-        <div className='first'>
-          <h2>Best 4G Network</h2>
-          <p>
-              Enjoy superfast internet across Nigeria with 4G <br /> LTE
-              data and superClear voice services
-            </p>
-              <Button />
-        </div>
-        <div className='first'>
-          <h2>24x7 Help & Support</h2>
-          <p>
-              Our virtual chat assistant & Customer care services is  <br />
-              available to help you 27/7
-            </p>
-              <Button />
-        </div>
-        <div className='first'>
-          <h2>BestValue</h2>
-          <p>
-              Get the BestValue for your money our Data and <br />
-              Voice services
-            </p>
-              <Button />
-        </div>
-      </div>
+      <Input para={"Best 4G Network"} ola={"Enjoy SuperFast internet across Nigeria with 4G LTE data and SuperClear voice services"}/>
+      <Input para={"24x7 Help & support"} ola={"Our virtual chat assistant & Customer care services available to help you 24x7"}/>
+      <Input para={"Bestvalue"} ola={"Get the BestValue for your money our data and voice services"}/>
     </div>
   )
 }
